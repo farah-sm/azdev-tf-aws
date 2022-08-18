@@ -34,6 +34,8 @@ resource "aws_security_group" "my_security_group" {
   }
 }
 
+
+
 resource "aws_instance" "myFirstInstance" {
   ami           = var.ami_id
   key_name = var.key_name
